@@ -1,0 +1,184 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/******** GREEN & APPLES ********
+*********************************/
+
+html, body {
+	height: 100%;
+}
+body {
+    font-size: 14px;
+	color: #454545;
+    line-height: 1.4;
+	font-family: arial, helvetica, sans-serif;
+}
+a, a:link, a:visited {
+	color: #A4A4A4;
+	text-decoration: none;
+}
+a:hover, li a.active {
+	color: #000000;
+	text-decoration: done;
+}
+#facebook,
+#twitter,
+#instagram,
+#pinterest {
+	float: right;
+	padding: 0 0.2em;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	display: inline-block;
+}
+#facebook {
+	background-image: url('../images/facebook_grey.png');
+}
+#facebook:hover {
+	background-image: url('../images/facebook_black.png');
+}
+#twitter {
+	background-image: url('../images/twitter_grey.png');
+}
+#twitter:hover {
+	background-image: url('../images/twitter_black.png');
+}
+#instagram {
+	background-image: url('../images/instagram_grey.png');
+}
+#instagram:hover {
+	background-image: url('../images/instagram_black.png');
+}
+#pinterest {
+	background-image: url('../images/pinterest_grey.png');
+}
+#pinterest:hover {
+	background-image: url('../images/pinterest_black.png');
+}   
+.region-branding {
+	margin-top: 20px;
+}
+.region-social-media {
+	margin-bottom: 140px;
+	margin-top: 20px; 
+}
+.main-menu {
+	float: right;
+	font-family: 'coda';
+	margin-bottom: 0;
+	font-size: 1.1428em;
+}
+.section-content .zone-content,
+.section-content .region-content {
+	margin-left: 0%;
+	margin-right: 0%;
+	width: 100%;
+}
+.section-content {
+	padding-top: 20px;
+}
+.node {
+	background-image: url('../images/entrance.jpg');
+}
+/*.field-name-body {
+	background-color: #000;
+	color: white;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+	right: 0;
+    top: 0;
+    bottom: 0;
+    width: 400px;
+    z-index: 10;
+    padding: 200px 20px;
+}*/
+.front .field-name-body {
+	display: none;
+}
+.front h1  {
+	display: none;
+}
+.front .zone-content-wrapper {
+	background-image: none;
+}
+.view-homepage-slide .view-header {
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	height: 100%;
+	right: 360px;
+}
+.view-homepage-slide .view-header .caption {
+    background-color: #eee;
+    opacity: 0.7;
+    position: absolute;
+	right: 0;
+    top: 0;
+    bottom: 0;
+    width: 375px;
+    z-index: 10;
+    padding: 200px 30px;
+    font-size: 1.2857em;
+    color: #000000;
+}
+.view-homepage-slide .view-header .caption a {
+	color: #454545;
+}
+.view-homepage-slide .view-header .caption a:hover {
+	color: #454545;
+}
+.block-homepage-slide-block {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+.flexslider {
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+}
+.front .flexslider .flex-control-nav {
+	display: none;
+}
+.flex-control-thumbs {
+	width: 1200px;
+	margin: auto;
+	margin-top: 20px;
+}
+.section-content .zone-content .grid-12 {
+	width: 100%;
+}
+
+/********** LANDING / WELCOME PAGE ************/
+
+.context-welcome #page-title {
+	display: none;
+}
+.context-welcome {
+	background-color: #191616;
+}
+.context-welcome .field-name-field-image {
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.context-welcome .field-name-body {
+	text-align: center;
+	background-color: inherit;
+	color: #fff;
+    position: relative;
+    width: 100%;
+    font-size: 3em;
+    font-family: Coda;
+    padding-top: 50px;
+}
+.body .context-welcome {
+	color: white;
+}
+.context-welcome .node {
+	background-image: none;
+}
