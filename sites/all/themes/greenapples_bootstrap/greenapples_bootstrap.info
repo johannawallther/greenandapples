@@ -46,3 +46,10 @@ scripts[] = 'bootstrap/js/transition.js'
 
 ; Disable BootstrapCDN so the compiled LESS source files can be used.
 settings[bootstrap_cdn] = ''
+
+fonts[google_fonts_api][] = "Old Standard TT&subset=latin#regular"
+fonts[google_fonts_api][] = "Roboto&subset=latin#100"
+fonts[google_fonts_api][] = "Roboto&subset=latin#300"
+fonts[google_fonts_api][] = "Roboto&subset=latin#700"
+fonts[google_fonts_api][] = "Source Code Pro&subset=latin#700"
+fonts[google_fonts_api][] = "Source Code Pro&subset=latin#regular"

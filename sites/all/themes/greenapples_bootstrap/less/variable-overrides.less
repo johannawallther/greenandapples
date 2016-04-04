@@ -9,20 +9,132 @@
 // Set the proper directory for the Bootstrap Glyphicon font.
 @icon-font-path: '../bootstrap/fonts/';
 
-@brand-primary:         #84c3c4;
-@brand-success:         #ce5c7f;
-@brand-info:            #edb347;
+@brand-primary:         #fff;
+@brand-success:         #211D1D;
+@brand-info:            #C8C8C8;
 
-@navbar-default-color:             #fff;
-@navbar-default-bg:                 black;
+@navbar-default-color:             @brand-primary;
+@navbar-default-bg:                @brand-success;
 @navbar-default-border:            @navbar-default-bg;
-@navbar-default-link-color:                #fff;
-@navbar-default-link-hover-color:          @brand-success;
-@navbar-default-link-active-color:         @brand-success;
+@navbar-default-link-color:         @brand-primary;
+@navbar-default-link-hover-color:   @brand-info;
+@navbar-default-link-active-color:  @brand-info;
+@navbar-default-link-active-bg:     @brand-success;
+@navbar-margin-bottom:              0;
 
-@headings-font-family:    "Cabin Sketch";
-@headings-color:          @brand-success;
 
-.main-container {
-  background-image: url("../images/entrance.jpg");
+@font-family-base:     "Source Code Pro";
+@headings-font-family:    @font-family-base;
+@font-family-san-serif:   @font-family-base;
+@font-size-h3:            ceil((@font-size-base * 1.4285)); // ~20px
+// @headings-color:          @brand-primary;
+@text-color:            @brand-primary;
+@link-hover-decoration: none;
+
+html, body {
+  background-color: @brand-success;
+  height: 100%;
+}
+body {
+    background-image: url("../images/entrance-short.jpg");
+    background-position: right center;
+    background-size: cover;
+    // margin: 0 !important;
+    // min-height: 700px;
+}
+.navbar-nav li a {
+  font-size: 16px;
+  font-weight: normal;
+}
+ul.navbar-nav {
+  margin: 33px 0;
+}
+#navbar,
+.footer {
+  display: none;
+}
+.front .page-header {
+  display: none;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-header {
+  float: none!important;
+}
+.navbar-right {
+  margin-right: -30px!important;
+}
+.navbar-btn {
+  margin-left: -15px;
+}
+.navbar-btn img {
+  background-color: @brand-primary;
+}
+.footer {
+    border-top: none!important;
+    margin-top: 0!important;
+    padding-bottom: 0!important;
+    padding-top: 0!important;
+    background-color: @brand-success;
+}
+// h1, .h1, h2, .h2, h3, .h3 {
+//   text-transform: uppercase;
+// }
+#block-block-2 {
+  text-align: center;
+  background-color: rgba(0,0,0,0.4);
+  padding: 30px;
+  margin-top: 100px;
+  // background-image: url("../images/transparent-bg.png");
+  // width: 430px;
+  // margin: 100px auto;
+  // padding: 65px;
+  p, h2, h3, .fa{
+    text-shadow: 2px 2px 4px #000000;
+  }
+  p, h2, h3, .fa a{
+    color: @brand-primary;
+  }
+  .social-media {
+    margin: 10px 0;
+    a {
+      color: @brand-primary;
+      font-size: 32px;
+      margin: 5px;
+    }
+  }
+  .media {
+    margin-top: 0;
+  }
+}
+// #block-block-2 img {
+//     background-color: @brand-primary;
+// }
+
+.social-media .fa {
+    font-size: 32px;
+    margin: 10px;
+    color: @brand-primary;
+    &:hover {
+      color: @navbar-default-link-hover-color;
+    }
+}
+#block-block-1 {
+  text-align: center;
+  margin: 33px 0;
+}
+.panel-panel.right {
+  background-image: url("../images/transparent-bg.png");
+  background-position: right center;
+  background-size: cover;
+  // margin-top: 20px;
+  // margin-bottom: 20px;
+  min-height: 700px;
+}
+.background {
+  padding: 30px;
+}
+.panel-panel.left .pane-content {
+    display: none;
 }
