@@ -5,14 +5,9 @@
  * these variables directly from ../bootstrap/less/variables.less to this file.
  */
 html,
-body {
-  background-color: #211D1D;
-  height: 100%;
-}
-body {
-  background-image: url("../images/entrance-short.jpg");
-  background-position: right center;
-  background-size: cover;
+body,
+.footer {
+  background-color: #211D1D !important;
 }
 .navbar-nav li a {
   font-size: 16px;
@@ -25,6 +20,7 @@ ul.navbar-nav {
 .footer {
   display: none;
 }
+/*REMOVE ONCE MENU LIVE*/
 .front .page-header {
   display: none;
 }
@@ -48,7 +44,11 @@ ul.navbar-nav {
   margin-top: 0!important;
   padding-bottom: 0!important;
   padding-top: 0!important;
-  background-color: #211D1D;
+}
+.region-content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /*REMOVE ONCE MENU LIVE*/
 }
 #block-block-2 {
   text-align: center;
@@ -102,6 +102,9 @@ ul.navbar-nav {
 }
 .panel-panel.left .pane-content {
   display: none;
+}
+.flexslider {
+  margin-bottom: 0;
 }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {

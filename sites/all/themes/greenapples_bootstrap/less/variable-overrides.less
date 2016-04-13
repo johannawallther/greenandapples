@@ -31,17 +31,16 @@
 @text-color:            @brand-primary;
 @link-hover-decoration: none;
 
-html, body {
-  background-color: @brand-success;
-  height: 100%;
+html, body, .footer {
+  background-color: @brand-success!important;
 }
-body {
-    background-image: url("../images/entrance-short.jpg");
-    background-position: right center;
-    background-size: cover;
-    // margin: 0 !important;
-    // min-height: 700px;
-}
+// body {
+//     background-image: url("../images/entrance-short.jpg");
+//     background-position: right center;
+//     background-size: cover;
+//     // margin: 0 !important;
+//     // min-height: 700px;
+// }
 .navbar-nav li a {
   font-size: 16px;
   font-weight: normal;
@@ -52,7 +51,7 @@ ul.navbar-nav {
 #navbar,
 .footer {
   display: none;
-}
+} /*REMOVE ONCE MENU LIVE*/
 .front .page-header {
   display: none;
 }
@@ -76,11 +75,15 @@ ul.navbar-nav {
     margin-top: 0!important;
     padding-bottom: 0!important;
     padding-top: 0!important;
-    background-color: @brand-success;
+    // background-color: @brand-success;
 }
 // h1, .h1, h2, .h2, h3, .h3 {
 //   text-transform: uppercase;
 // }
+.region-content {
+  margin-top: 30px;
+  margin-bottom: 30px; /*REMOVE ONCE MENU LIVE*/
+}
 #block-block-2 {
   text-align: center;
   background-color: rgba(0,0,0,0.4);
@@ -137,4 +140,7 @@ ul.navbar-nav {
 }
 .panel-panel.left .pane-content {
     display: none;
+}
+.flexslider {
+  margin-bottom: 0;
 }
