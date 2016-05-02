@@ -102,6 +102,9 @@ ul.navbar-nav {
 .flexslider {
   margin-bottom: 0;
 }
+.field-name-body a {
+  text-decoration: underline;
+}
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
