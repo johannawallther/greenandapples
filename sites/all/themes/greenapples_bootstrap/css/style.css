@@ -16,6 +16,11 @@ body,
 ul.navbar-nav {
   margin: 33px 0;
 }
+#navbar,
+.footer {
+  display: none;
+}
+/*REMOVE ONCE MENU LIVE*/
 .front .page-header {
   display: none;
 }
