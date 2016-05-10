@@ -69,6 +69,10 @@ ul.navbar-nav {
 #block-block-2 .fa a {
   color: #fff;
 }
+#block-block-2 blockquote {
+  font-size: 14px;
+  font-style: italic;
+}
 #block-block-2 .social-media {
   margin: 10px 0;
 }
