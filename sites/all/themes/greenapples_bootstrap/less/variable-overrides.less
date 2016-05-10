@@ -30,7 +30,10 @@
 // @headings-color:          @brand-primary;
 @text-color:            @brand-primary;
 @link-hover-decoration: none;
-
+blockquote {
+  font-style: italic;
+}
+@blockquote-font-size: (@font-size-base);
 html, body, .footer {
   background-color: @brand-success!important;
 }
@@ -100,10 +103,6 @@ ul.navbar-nav {
   p, h2, h3, .fa a{
     color: @brand-primary;
   }
-  blockquote {
-    font-style: italic;
-  }
-  @blockquote-font-size: (@font-size-base);
   .social-media {
     margin: 10px 0;
     a {
